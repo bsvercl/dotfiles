@@ -37,17 +37,29 @@
 *color14:      base0F
 *color15:      base07
 
-Xft.dpi: 96
-Xft.antialias: true
-Xft.hinting: true
-Xft.rgba: rgb
-Xft.autohint: false 
-Xft.hintstyle: hintslight
-Xft.lcdfilter: lcddefault
+! Xft settings
+Xft*dpi: 96
+Xft*antialias: true
+Xft*hinting: true
+Xft*rgba: rgb
+Xft*autohint: false 
+Xft*hintstyle: hintslight
+Xft*lcdfilter: lcddefault
 
+! URxvt settings
 URxvt*scrollBar: false
 URxvt*cursorBlink: true
 
 URxvt*font: xft:Hack:size=10
 URxvt*boldFont: xft:Hack:bold:size=10
 URxvt*letterSpace: -1
+
+! rofi settigs
+rofi*color-normal: base00, base07, base00, base07, base00
+rofi*color-urgent: base00, base08, base00, base08, base00
+rofi*color-active: base00, base0D, base00, base0D, base00
+rofi*color-window: base00, base07
+
+rofi*font: DejaVu Sans Book 10
+
+rofi*matching: fuzzy
