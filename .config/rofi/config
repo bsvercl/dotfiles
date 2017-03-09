@@ -1,0 +1,11 @@
+! State:           'bg',    'fg',    'bgalt', 'hlbg',  'hlfg'
+rofi.color-normal: #322931, #ffffff, #322931, #ffffff, #322931
+rofi.color-urgent: #322931, #dd464c, #322931, #dd464c, #322931
+rofi.color-active: #322931, #1290bf, #322931, #1290bf, #322931
+!                  'bg',    'border'
+rofi.color-window: #322931, #ffffff
+
+rofi.font: DejaVu Sans Book 10
+
+! Fuzzy matching for search
+rofi.matching: fuzzy
