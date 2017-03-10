@@ -1,19 +1,19 @@
-#define base00 #322931
-#define base01 #433b42
-#define base02 #5c545b
-#define base03 #797379
-#define base04 #989498
-#define base05 #b9b5b8
-#define base06 #d5d3d5
+#define base00 #000000
+#define base01 #404040
+#define base02 #606060
+#define base03 #808080
+#define base04 #c0c0c0
+#define base05 #d0d0d0
+#define base06 #e0e0e0
 #define base07 #ffffff
-#define base08 #dd464c
-#define base09 #fd8b19
-#define base0A #fdcc59
-#define base0B #8fc13e
-#define base0C #149b93
-#define base0D #1290bf
-#define base0E #c85e7c
-#define base0F #b33508
+#define base08 #ff0000
+#define base09 #ff9900
+#define base0A #ff0099
+#define base0B #33ff00
+#define base0C #00ffff
+#define base0D #0066ff
+#define base0E #cc00ff
+#define base0F #3300ff
 
 *foreground:   base05
 *background:   base00
@@ -60,6 +60,6 @@ rofi*color-urgent: base00, base08, base00, base08, base00
 rofi*color-active: base00, base0D, base00, base0D, base00
 rofi*color-window: base00, base07
 
-rofi*font: DejaVu Sans Book 10
+rofi*font: Noto Sans Mono 10
 
 rofi*matching: fuzzy

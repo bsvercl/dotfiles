@@ -127,7 +127,7 @@ set laststatus=2 " always show status line
 set magic
 
 " Display line numbers on the left
-set number
+set relativenumber
 
 " Show partial commands
 set showcmd
