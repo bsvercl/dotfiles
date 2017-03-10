@@ -65,6 +65,7 @@ unsetopt ALL_EXPORT
 #############
 alias ll='ls -al'
 alias ls='ls --color=auto '
+alias config='/usr/bin/git --git-dir=/home/bread/dotfiles --work-tree=/home/bread'
 
 ### Bind keys
 #############
@@ -160,4 +161,3 @@ zstyle '*' single-ignored show
 ### Source plugins
 ##################
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-alias config='/usr/bin/git --git-dir=/home/bread/dotfiles --work-tree=/home/bread'
