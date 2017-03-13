@@ -60,6 +60,6 @@ rofi*color-urgent: base00, base08, base00, base08, base00
 rofi*color-active: base00, base0D, base00, base0D, base00
 rofi*color-window: base00, base07
 
-rofi*font: Noto Sans Mono 10
+rofi*font: Noto Sans 10
 
 rofi*matching: fuzzy
