@@ -2,25 +2,19 @@ set nocompatible
 filetype off
 
 """""""""""""""""""""""""""""""""""""""
-" Vundle
+" Plug
 """""""""""""""""""""""""""""""""""""""
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+call plug#begin('~/.vim/plugged')
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py --racer-completer' }
+Plug 'rust-lang/rust.vim'
+Plug 'w0rp/ale'
+Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'chriskempson/base16-vim'
+call plug#end()
 
-Plugin 'VundleVim/Vundle.vim'
-
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'rust-lang/rust.vim'
-Plugin 'w0rp/ale'
-Plugin 'timonv/vim-cargo'
-Plugin 'scrooloose/nerdtree'
-Plugin 'jistr/vim-nerdtree-tabs'
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
-Plugin 'easymotion/vim-easymotion'
-Plugin 'chriskempson/base16-vim'
-
-call vundle#end()
 filetype plugin indent on
 
 """""""""""""""""""""""""""""""""""""""
