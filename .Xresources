@@ -1,40 +1,55 @@
-#define base00 #000000
-#define base01 #404040
-#define base02 #606060
-#define base03 #808080
-#define base04 #c0c0c0
-#define base05 #d0d0d0
+! flatcolor theme
+#define base00 #565575
+#define base01 #62d196
+#define base02 #ffb378
+#define base03 #100e23
+#define base04 #65b2ff
+#define base05 #cbe3e7
 #define base06 #e0e0e0
-#define base07 #ffffff
+#define base07 #a6b3cc
 #define base08 #ff0000
-#define base09 #ff9900
-#define base0A #ff0099
-#define base0B #33ff00
-#define base0C #00ffff
-#define base0D #0066ff
-#define base0E #cc00ff
-#define base0F #3300ff
+#define base09 #ff5458
+#define base0A #ffe9aa
+#define base0B #95ffa4
+#define base0C #aaffe4
+#define base0D #91ddff
+#define base0E #c991e1
+#define base0F #63f2f1
 
 *foreground:   base05
 *background:   base00
 *cursorColor:  base05
 
+! black
 *color0:       base00
-*color1:       base08
-*color2:       base0B
-*color3:       base0A
-*color4:       base0D
-*color5:       base0E
-*color6:       base0C
-*color7:       base05
-
 *color8:       base03
+
+! red
+*color1:       base08
 *color9:       base09
+
+! green
+*color2:       base0B
 *color10:      base01
+
+! yellow
+*color3:       base0A
 *color11:      base02
+
+! blue
+*color4:       base0D
 *color12:      base04
+
+! megenta
+*color5:       base0E
 *color13:      base06
+
+! cyan
+*color6:       base0C
 *color14:      base0F
+
+! white
+*color7:       base05
 *color15:      base07
 
 ! Xft settings
