@@ -2,7 +2,7 @@ call plug#begin('~/.config/nvim/plugged')
 
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 let g:deoplete#enable_at_startup = 1
-let g:deoplete#enable_smart_case = 1
+"let g:deoplete#enable_smart_case = 1
 let g:deoplete#sources#rust#racer_binary = '/home/bread/.cargo/bin/racer'
 let g:deoplete#sources#rust#rust_source_path = '/home/bread/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src'
 " use tab to cycle through completions
@@ -25,6 +25,7 @@ autocmd BufWritePost *.rs Neomake! cargo
 
 " enable rust in nvim
 Plug 'rust-lang/rust.vim'
+let g:rustfmt_autosave = 1
 
 " good colorscheme
 Plug 'MaxSt/FlatColor'
@@ -62,10 +63,12 @@ set showcmd        " show partial command in status line
 set showmatch      " show matching brackets
 set matchtime=3    " speed up showing match
 set nowrap         " do not wrap lines
+
 set expandtab      " tabs are spaces
 set tabstop=4      " tabs == 4 spaces
 set shiftwidth=4   " indenation amount for <<,>>
 set softtabstop=4  " tabs == 4 spaces
+set shiftround     " round indent to multiple of shiftwidth
 
 set noerrorbells " no beeps
 set novisualbell " no screen flashes
