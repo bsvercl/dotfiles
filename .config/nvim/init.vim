@@ -52,6 +52,10 @@ let g:airline_right_alt_sep = ''
 let g:airline_theme = 'flatcolor'
 let g:airline_symbols_ascii = 1
 
+Plug 'easymotion/vim-easymotion'
+
+Plug 'scrooloose/nerdcommenter'
+
 call plug#end()
 
 set termguicolors     " enable true colors
@@ -70,6 +74,8 @@ set shiftwidth=4   " indenation amount for <<,>>
 set softtabstop=4  " tabs == 4 spaces
 set shiftround     " round indent to multiple of shiftwidth
 
+set colorcolumn=80 " shows a column at 80 mark
+
 set noerrorbells " no beeps
 set novisualbell " no screen flashes
 
@@ -87,3 +93,9 @@ set gdefault   " use `g` flag by default
 nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
 " clear highlighted search
 nnoremap <C-L> :nohlsearch<CR>
+
+" disable arrow keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
