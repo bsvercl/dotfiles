@@ -13,6 +13,7 @@ Plug 'jistr/vim-nerdtree-tabs'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'chriskempson/base16-vim'
+Plug 'sonph/onehalf', { 'rtp': 'vim/' }
 call plug#end()
 
 filetype plugin indent on
@@ -20,7 +21,13 @@ filetype plugin indent on
 """""""""""""""""""""""""""""""""""""""
 " Colors and fonts
 """""""""""""""""""""""""""""""""""""""
-set t_Co=256 " enable 256 colors
+if has("t_Co")
+    set t_Co=256
+endif
+
+if has("termguicolors")
+    set termguicolors
+endif
 
 set background=dark
 
@@ -130,7 +137,6 @@ set showcmd
 set hlsearch
 
 set incsearch
-
 
 " No annoying sounds on errors
 set noerrorbells
