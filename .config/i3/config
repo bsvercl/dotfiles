@@ -46,7 +46,7 @@ bindsym $mod+Return exec --no-startup-id alacritty
 exec --no-startup-id redshift-gtk
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id compton -b
-exec --no-startup-id feh --bg-scale /usr/local/wallpapers/wallpaper.png
+#exec --no-startup-id feh --bg-scale /usr/local/wallpapers/wallpaper.png
 #exec --no-startup-id pulseaudio --start
 exec --no-startup-id dunst
 #exec --no-startup-id urxvtd -q -o -f
