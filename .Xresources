@@ -1,63 +1,45 @@
-! flatcolor theme
-#define base00 #565575
-#define base01 #62d196
-#define base02 #ffb378
-#define base03 #100e23
-#define base04 #65b2ff
-#define base05 #cbe3e7
-#define base06 #e0e0e0
-#define base07 #a6b3cc
-#define base08 #ff0000
-#define base09 #ff5458
-#define base0A #ffe9aa
-#define base0B #95ffa4
-#define base0C #aaffe4
-#define base0D #91ddff
-#define base0E #c991e1
-#define base0F #63f2f1
-
-*foreground:   base05
-*background:   base00
-*cursorColor:  base05
+*foreground: #cbe3e7
+*background: #565575
+*cursorColor: #cbe3e7
 
 ! black
-*color0:       base00
-*color8:       base03
+*color0: #565575
+*color8: #100e23
 
 ! red
-*color1:       base08
-*color9:       base09
+*color1: #ff0000
+*color9: #ff5458
 
 ! green
-*color2:       base0B
-*color10:      base01
+*color2: #95ffa4
+*color10: #62d196
 
 ! yellow
-*color3:       base0A
-*color11:      base02
+*color3: #ffe9aa
+*color11: #ffb378
 
 ! blue
-*color4:       base0D
-*color12:      base04
+*color4: #91ddff
+*color12: #65b2ff
 
 ! megenta
-*color5:       base0E
-*color13:      base06
+*color5: #c991e1
+*color13: #e0e0e0
 
 ! cyan
-*color6:       base0C
-*color14:      base0F
+*color6: #aaffe4
+*color14: #63f2f1
 
 ! white
-*color7:       base05
-*color15:      base07
+*color7: #cbe3e7
+*color15: #a6b3cc
 
 ! Xft settings
 Xft*dpi: 96
 Xft*antialias: true
 Xft*hinting: true
 Xft*rgba: rgb
-Xft*autohint: false 
+Xft*autohint: false
 Xft*hintstyle: hintfull
 Xft*lcdfilter: lcddefault
 
@@ -70,10 +52,10 @@ URxvt*boldFont: xft:Hack:bold:size=10
 URxvt*letterSpace: -1
 
 ! rofi settigs
-rofi*color-normal: base00, base07, base00, base07, base00
-rofi*color-urgent: base00, base08, base00, base08, base00
-rofi*color-active: base00, base0D, base00, base0D, base00
-rofi*color-window: base00, base07
+rofi*color-normal: #565575, #a6b3cc, #565575, #a6b3cc, #565575
+rofi*color-urgent: #565575, #ff0000, #565575, #ff0000, #565575
+rofi*color-active: #565575, #91ddff, #565575, #91ddff, #565575
+rofi*color-window: #565575, #a6b3cc
 
 rofi*font: Noto Sans 10
 
