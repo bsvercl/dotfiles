@@ -51,6 +51,7 @@ exec --no-startup-id compton -b
 exec --no-startup-id dunst
 #exec --no-startup-id urxvtd -q -o -f
 exec --no-startup-id nm-applet
+exec --no-startup-id volumeicon
 
 # Pulse Audio controls
 # Currently not working

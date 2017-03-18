@@ -23,6 +23,9 @@ let g:neomake_warning_sign = {
     \ }
 autocmd BufWritePost *.rs Neomake! cargo
 
+" enable toml in nvim
+Plug 'cespare/vim-toml'
+
 " enable rust in nvim
 Plug 'rust-lang/rust.vim'
 let g:rustfmt_autosave = 1
