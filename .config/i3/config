@@ -13,9 +13,10 @@ set $mod Mod4
 
 # use colors from Xresources
 set_from_resource $base00 i3wm.color0  #ffffff
+set_from_resource $base03 i3wm.color8  #ffffff
+
 set_from_resource $base01 i3wm.color10 #ffffff
 set_from_resource $base02 i3wm.color11 #ffffff 
-set_from_resource $base03 i3wm.color8  #ffffff
 set_from_resource $base04 i3wm.color12 #ffffff
 set_from_resource $base05 i3wm.color7  #ffffff
 set_from_resource $base06 i3wm.color13 #ffffff

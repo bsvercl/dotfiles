@@ -89,7 +89,7 @@ set splitbelow " horizontal split below current
 set splitright " hoizontal split right current
 
 set ignorecase " ignore case during search
-"set smartcase  " ...unless the query has a capital letter
+set smartcase  " ...unless the query has a capital letter
 set gdefault   " use `g` flag by default
 
 " cancel a search
