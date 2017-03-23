@@ -61,6 +61,10 @@ Plug 'scrooloose/nerdcommenter'
 
 Plug 'matze/vim-move'
 
+Plug 'mhinz/vim-startify'
+
+"Plug 'airblade/vim-gitgutter'
+
 call plug#end()
 
 set background=dark " dark gruvbox
