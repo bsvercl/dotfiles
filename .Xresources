@@ -46,6 +46,8 @@ URxvt*cursorBlink: true
 
 URxvt*font: xft:DejaVu Sans Mono:size=10
 URxvt*boldFont: xft:DejaVu Sans Mono:bold:size=10
+URxvt*italicFont: xft:DejaVu Sans Mono:italic:size=10
+URxvt*boldItalicFont: xft:DejaVu Sans Mono:bold:italic:size=10
 
 ! rofi settigs
 ! Enable the extended coloring options
