@@ -46,7 +46,7 @@ markup=none
 # The type defaults to "mem" if the instance is not specified.
 [memory]
 label=MEM
-separator=false
+#separator=false
 interval=30
 
 #[memory]
