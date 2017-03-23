@@ -30,11 +30,10 @@ Plug 'cespare/vim-toml'
 Plug 'rust-lang/rust.vim'
 let g:rustfmt_autosave = 1
 
-" good colorscheme
 Plug 'MaxSt/FlatColor'
-let g:flatcolor_termcolors = 256
-
 Plug 'scrooloose/nerdtree'
+
+Plug 'morhetz/gruvbox'
 
 Plug 'jistr/vim-nerdtree-tabs'
 let g:nerdtree_tabs_open_on_console_startup = 2
@@ -52,17 +51,19 @@ let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
-let g:airline_theme = 'flatcolor'
+let g:airline_theme = 'gruvbox'
 let g:airline_symbols_ascii = 1
 
 Plug 'easymotion/vim-easymotion'
 
 Plug 'scrooloose/nerdcommenter'
 
+Plug 'matze/vim-move'
+
 call plug#end()
 
-set termguicolors     " enable true colors
-colorscheme flatcolor " nice looking colorscheme
+set background=dark
+colorscheme gruvbox " nice looking colorscheme
 
 set hidden         " hide buffer when abandoned
 set relativenumber " show relative line numbers
@@ -83,7 +84,7 @@ set noerrorbells " no beeps
 set novisualbell " no screen flashes
 
 set cursorline   " highlight current line
-set cursorcolumn " highlight current column
+"set cursorcolumn " highlight current column
 
 set splitbelow " horizontal split below current
 set splitright " hoizontal split right current
@@ -98,7 +99,7 @@ nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
 nnoremap <C-L> :nohlsearch<CR>
 
 " disable arrow keys
-noremap <Up> <NOP>
-noremap <Down> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
+"noremap <Up> <NOP>
+"noremap <Down> <NOP>
+"noremap <Left> <NOP>
+"noremap <Right> <NOP>
