@@ -33,6 +33,7 @@ let g:rustfmt_autosave = 1
 Plug 'scrooloose/nerdtree'
 
 Plug 'morhetz/gruvbox'
+let g:gruvbox_contrast_dark = 'hard'
 
 Plug 'jistr/vim-nerdtree-tabs'
 let g:nerdtree_tabs_open_on_console_startup = 2
