@@ -37,7 +37,7 @@ font pango:DejaVu Sans Book, Awesome 9
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id urxvt
+bindsym $mod+Return exec --no-startup-id urxvtc
 
 # autostart application
 exec --no-startup-id redshift-gtk
@@ -49,7 +49,7 @@ exec --no-startup-id dunst
 exec --no-startup-id nm-applet
 exec --no-startup-id start-pulseaudio-x11
 exec --no-startup-id pnmixer
-exec --no-startup-id urxvtd -f
+exec --no-startup-id urxvtd -q -f -o
 
 # no title bars
 new_window pixel
