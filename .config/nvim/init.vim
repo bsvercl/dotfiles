@@ -30,7 +30,6 @@ Plug 'cespare/vim-toml'
 Plug 'rust-lang/rust.vim'
 let g:rustfmt_autosave = 1
 
-Plug 'MaxSt/FlatColor'
 Plug 'scrooloose/nerdtree'
 
 Plug 'morhetz/gruvbox'
@@ -54,6 +53,8 @@ let g:airline_right_alt_sep = ''
 let g:airline_theme = 'gruvbox'
 let g:airline_symbols_ascii = 1
 
+"Plug 'vim-airline/vim-airline-themes'
+
 Plug 'easymotion/vim-easymotion'
 
 Plug 'scrooloose/nerdcommenter'
@@ -62,7 +63,7 @@ Plug 'matze/vim-move'
 
 call plug#end()
 
-set background=dark
+set background=dark " dark gruvbox
 colorscheme gruvbox " nice looking colorscheme
 
 set hidden         " hide buffer when abandoned
