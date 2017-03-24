@@ -65,7 +65,6 @@ unsetopt ALL_EXPORT
 #############
 alias ll='ls -al'
 alias ls='ls --color=auto '
-alias config='/usr/bin/git --git-dir=/home/bread/dotfiles --work-tree=/home/bread'
 
 ### Bind keys
 #############
