@@ -51,7 +51,7 @@ let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
-let g:airline_theme = 'dracula'
+let g:airline_theme = 'gruvbox'
 let g:airline_symbols_ascii = 1
 
 "Plug 'vim-airline/vim-airline-themes'
@@ -60,18 +60,12 @@ Plug 'easymotion/vim-easymotion'
 
 Plug 'scrooloose/nerdcommenter'
 
-Plug 'matze/vim-move'
-
 Plug 'mhinz/vim-startify'
-
-Plug 'dracula/vim'
-
-"Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
 set background=dark " dark gruvbox
-colorscheme dracula " nice looking colorscheme
+colorscheme gruvbox " nice looking colorscheme
 
 set hidden         " hide buffer when abandoned
 set relativenumber " show relative line numbers
