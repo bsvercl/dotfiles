@@ -182,7 +182,7 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-set $Locker i3lock -c "#1d1f21"
+set $Locker i3lock -c "#1d2021"
 
 bindsym $mod+9 exec --no-startup-id $Locker
 
