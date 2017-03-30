@@ -99,9 +99,3 @@ set gdefault   " use `g` flag by default
 nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
 " clear highlighted search
 nnoremap <C-L> :nohlsearch<CR>
-
-" disable arrow keys
-"noremap <Up> <NOP>
-"noremap <Down> <NOP>
-"noremap <Left> <NOP>
-"noremap <Right> <NOP>

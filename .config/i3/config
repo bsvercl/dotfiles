@@ -60,6 +60,8 @@ for_window [class="(?i)lxappearance"] floating enable
 for_window [class="(?i)lightdm-gtk-greeter-settings"] floating enable
 for_window [class="(?i)xfce4-power-manager-settings"] floating enable
 for_window [class="(?i)pavucontrol"] floating enable
+for_window [class="(?i)bless"] floating enable
+for_window [class="(?i)zeal"] floating enable
 
 # for pop up windows
 for_window [window_role="pop-up"] floating enable
