@@ -51,13 +51,18 @@ exec --no-startup-id start-pulseaudio-x11
 exec --no-startup-id pnmixer
 exec --no-startup-id urxvtd -q -f -o
 
-# no title bars
+# no window titles
 new_window pixel
 
 # open certain applications in floating mode always
-for_window [class="Thunar"] floating enable
-for_window [class="Lxappearance"] floating enable
-for_window [class="Lightdm-gtk-greeter-settings"] floating enable
+for_window [class="(?i)pcmanfm"] floating enable
+for_window [class="(?i)lxappearance"] floating enable
+for_window [class="(?i)lightdm-gtk-greeter-settings"] floating enable
+for_window [class="(?i)xfce4-power-manager-settings"] floating enable
+for_window [class="(?i)pavucontrol"] floating enable
+
+# for pop up windows
+for_window [window_role="pop-up"] floating enable
 
 # kill focused window
 bindsym $mod+Shift+q kill
