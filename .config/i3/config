@@ -54,6 +54,7 @@ exec --no-startup-id pnmixer
 
 # no window titles
 new_window pixel
+new_float pixel
 
 # open certain applications in floating mode always
 for_window [class="(?i)pcmanfm"] floating enable
@@ -63,9 +64,15 @@ for_window [class="(?i)xfce4-power-manager-settings"] floating enable
 for_window [class="(?i)pavucontrol"] floating enable
 for_window [class="(?i)bless"] floating enable
 for_window [class="(?i)zeal"] floating enable
+for_window [class="(?i)mousepad"] floating enable
+for_window [class="(?i)xarchiver"] floating enable
 
 # for pop up windows
 for_window [window_role="pop-up"] floating enable
+
+# keyboard backlight
+bindsym $mod+minus exec ~/.config/i3/keyboard_brightness.sh down
+bindsym $mod+equal exec ~/.config/i3/keyboard_brightness.sh up
 
 # kill focused window
 bindsym $mod+Shift+q kill
