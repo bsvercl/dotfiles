@@ -27,6 +27,8 @@ Plug 'scrooloose/nerdtree'
 Plug 'morhetz/gruvbox'
 let g:gruvbox_contrast_dark = 'hard'
 
+Plug 'lifepillar/vim-solarized8'
+
 Plug 'jistr/vim-nerdtree-tabs'
 let g:nerdtree_tabs_open_on_console_startup = 2
 let g:nerdtree_tabs_autofind = 1
@@ -43,10 +45,10 @@ let g:airline_left_sep = ''
 let g:airline_left_alt_sep = ''
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = ''
-let g:airline_theme = 'gruvbox'
+let g:airline_theme = 'solarized'
 let g:airline_symbols_ascii = 1
 
-"Plug 'vim-airline/vim-airline-themes'
+Plug 'vim-airline/vim-airline-themes'
 
 Plug 'easymotion/vim-easymotion'
 
@@ -56,8 +58,9 @@ Plug 'mhinz/vim-startify'
 
 call plug#end()
 
-set background=dark " dark gruvbox
-colorscheme gruvbox " nice looking colorscheme
+set termguicolors                " enable 256 colors
+set background=dark              " dark gruvbox
+colorscheme solarized8_dark_high " nice looking colorscheme
 
 set hidden         " hide buffer when abandoned
 set relativenumber " show relative line numbers
