@@ -71,8 +71,8 @@ for_window [class="(?i)xarchiver"] floating enable
 for_window [window_role="pop-up"] floating enable
 
 # keyboard backlight
-bindsym $mod+minus exec ~/.config/i3/keyboard_brightness.sh down
-bindsym $mod+equal exec ~/.config/i3/keyboard_brightness.sh up
+bindsym $mod+minus exec gksu ~/.config/i3/keyboard_brightness.sh down
+bindsym $mod+equal exec gksu ~/.config/i3/keyboard_brightness.sh up
 
 # kill focused window
 bindsym $mod+Shift+q kill
