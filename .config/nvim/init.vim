@@ -57,9 +57,9 @@ Plug 'mhinz/vim-startify'
 
 call plug#end()
 
-set termguicolors                " enable 256 colors
-set background=dark              " dark gruvbox
-colorscheme solarized8_dark_high " nice looking colorscheme
+set termguicolors            " enable 256 colors
+set background=dark          " dark gruvbox
+colorscheme solarized8_light " nice looking colorscheme
 
 set hidden         " hide buffer when abandoned
 set number         " show line numbers
