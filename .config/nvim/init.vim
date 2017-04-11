@@ -13,7 +13,7 @@ Plug 'sebastianmarkow/deoplete-rust'
 
 Plug 'neomake/neomake'
 let g:neomake_open_list = 2
-autocmd BufWritePost * Neomake
+autocmd BufWritePost *.rs Neomake! clippy
 
 " enable toml in nvim
 Plug 'cespare/vim-toml'
@@ -62,6 +62,7 @@ set background=dark              " dark gruvbox
 colorscheme solarized8_dark_high " nice looking colorscheme
 
 set hidden         " hide buffer when abandoned
+set number         " show line numbers
 set relativenumber " show relative line numbers
 set showcmd        " show partial command in status line
 set showmatch      " show matching brackets
