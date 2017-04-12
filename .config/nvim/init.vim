@@ -13,7 +13,15 @@ Plug 'sebastianmarkow/deoplete-rust'
 
 Plug 'neomake/neomake'
 let g:neomake_open_list = 2
-autocmd BufWritePost *.rs Neomake! clippy
+let g:neomake_warning_sign = {
+    \ 'text': 'W',
+    \ 'texthl': 'WarningMsg',
+    \ }
+let g:neomake_error_sign = {
+    \ 'text': 'E',
+    \ 'texthl': 'ErrorMsg',
+    \ }
+autocmd BufWritePost * Neomake
 
 " enable toml in nvim
 Plug 'cespare/vim-toml'
