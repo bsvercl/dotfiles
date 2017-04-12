@@ -3,13 +3,13 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 let g:deoplete#enable_at_startup = 1
 "let g:deoplete#enable_smart_case = 1
-let g:deoplete#sources#rust#racer_binary = '/home/bread/.cargo/bin/racer'
-let g:deoplete#sources#rust#rust_source_path = '/home/bread/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src'
 " use tab to cycle through completions
 inoremap <expr><tab> pumvisible() ? "\<c-n>" : "\<tab>"
 
 " rust for deoplete
 Plug 'sebastianmarkow/deoplete-rust'
+let g:deoplete#sources#rust#racer_binary = '/home/bread/.cargo/bin/racer'
+let g:deoplete#sources#rust#rust_source_path = '/home/bread/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src'
 
 Plug 'neomake/neomake'
 let g:neomake_open_list = 2
