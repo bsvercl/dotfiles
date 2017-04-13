@@ -11,6 +11,8 @@ Plug 'sebastianmarkow/deoplete-rust'
 let g:deoplete#sources#rust#racer_binary = '/home/bread/.cargo/bin/racer'
 let g:deoplete#sources#rust#rust_source_path = '/home/bread/.rustup/toolchains/stable-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src'
 
+Plug 'beyondmarc/glsl.vim'
+
 Plug 'neomake/neomake'
 let g:neomake_open_list = 2
 let g:neomake_warning_sign = {
